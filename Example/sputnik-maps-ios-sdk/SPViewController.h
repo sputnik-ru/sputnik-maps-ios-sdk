@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SPSputnikTileSource.h>
+#import <SPMapView.h>
+#import <MapBox.h>
 
 @interface SPViewController : UIViewController
 

@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   
   # next line is a private fork which needs private spec repo source to lint
-  # use command line option described below to lint this spec succesfully --sources='http://gitlab.srv.pv.km/ios-dev/cocoapods-spec.git,https://github.com/CocoaPods/Specs'
+  # use command line option described below to lint this spec succesfully
+  # pod spec lint --allow-warnings --sources='http://gitlab.srv.pv.km/ios-dev/cocoapods-spec.git,https://github.com/CocoaPods/Specs'
   s.dependency 'Mapbox-iOS-SDK', '= 1.6.0-sputnik'
 end
