@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <RMAbstractWebMapSource.h>
 
-#define kSputnikDefaultMinTileZoom 2
+#define kSputnikDefaultMinTileZoom 3
 #define kSputnikDefaultMaxTileZoom 18
 
 @interface SPSputnikTileSource : RMAbstractWebMapSource
