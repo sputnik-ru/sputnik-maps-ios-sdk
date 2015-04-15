@@ -1,0 +1,30 @@
+{
+  "name": "sputnik-maps-ios-sdk",
+  "version": "0.1.0",
+  "summary": "Maps SDK for iOS with tiles from Sputnik.ru",
+  "description": "Maps SDK for iOS with tiles from Sputnik.ru which uses forked mapbox-ios-sdk and provides custom tile source and map view.",
+  "homepage": "http://gitlab.srv.pv.km/ios-dev/sputnik-maps-ios-sdk",
+  "license": "Commercial",
+  "authors": {
+    "Denis Zamataev": "zamataev@corp.sputnik.ru"
+  },
+  "source": {
+    "git": "http://gitlab.srv.pv.km/ios-dev/sputnik-maps-ios-sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "sputnik-maps-ios-sdk": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Mapbox-iOS-SDK": [
+      "= 1.6.0-sputnik"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+source 'http://gitlab.srv.pv.km/ios-dev/cocoapods-spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'sputnik-maps-ios-sdk', :exclusive => true do
+  pod "sputnik-maps-ios-sdk", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "sputnik-maps-ios-sdk", :path => "../"
+
+  
+end
