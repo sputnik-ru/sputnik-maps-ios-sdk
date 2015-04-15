@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "sputnik-maps-ios-sdk"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Maps SDK for iOS with tiles from Sputnik.ru"
   s.description      = "Maps SDK for iOS with tiles from Sputnik.ru which uses forked mapbox-ios-sdk and provides custom tile source and map view."
   s.homepage         = "http://gitlab.srv.pv.km/ios-dev/sputnik-maps-ios-sdk"
