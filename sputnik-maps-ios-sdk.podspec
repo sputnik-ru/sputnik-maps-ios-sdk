@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.version          = "0.2.0"
   s.summary          = "Maps SDK for iOS with tiles from Sputnik.ru"
   s.description      = "Maps SDK for iOS with tiles from Sputnik.ru which uses forked mapbox-ios-sdk and provides custom tile source and map view."
-  s.homepage         = "http://gitlab.srv.pv.km/ios-dev/sputnik-maps-ios-sdk"
+  s.homepage         = "https://github.com/sputnik-ru/sputnik-maps-ios-sdk"
 
   s.license          = 'Commercial'
   s.author           = { "Denis Zamataev" => "zamataev@corp.sputnik.ru" }
-  s.source           = { :git => "http://gitlab.srv.pv.km/ios-dev/sputnik-maps-ios-sdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sputnik-ru/sputnik-maps-ios-sdk.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
