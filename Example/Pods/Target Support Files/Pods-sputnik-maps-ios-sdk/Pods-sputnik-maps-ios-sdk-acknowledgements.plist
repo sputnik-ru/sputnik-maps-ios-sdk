@@ -111,7 +111,7 @@ Proj4 is copyright (c) 2000, Frank Warmerdam
  DEALINGS IN THE SOFTWARE.
 </string>
 			<key>Title</key>
-			<string>Mapbox-iOS-SDK</string>
+			<string>Mapbox-iOS-SDK@sputnik</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

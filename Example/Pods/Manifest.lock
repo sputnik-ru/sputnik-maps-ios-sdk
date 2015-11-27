@@ -7,27 +7,27 @@ PODS:
   - GRMustache (7.3.0):
     - JRSwizzle (~> 1.0)
   - JRSwizzle (1.0)
-  - Mapbox-iOS-SDK (1.6.0-sputnik):
+  - Mapbox-iOS-SDK@sputnik (1.6.2-sputnik):
     - FMDB (= 2.3)
     - GRMustache (= 7.3.0)
     - SMCalloutView (= 2.0)
   - SMCalloutView (2.0)
-  - sputnik-maps-ios-sdk (0.1.0):
-    - Mapbox-iOS-SDK (= 1.6.0-sputnik)
+  - sputnik-maps-ios-sdk (0.2.1):
+    - Mapbox-iOS-SDK@sputnik (= 1.6.2-sputnik)
 
 DEPENDENCIES:
-  - sputnik-maps-ios-sdk (from `../`)
+  - sputnik-maps-ios-sdk (from `../sputnik-maps-ios-sdk.podspec`)
 
 EXTERNAL SOURCES:
   sputnik-maps-ios-sdk:
-    :path: "../"
+    :path: "../sputnik-maps-ios-sdk.podspec"
 
 SPEC CHECKSUMS:
   FMDB: 773d79bb74226959b7e2286b1d6e0bd857c88915
   GRMustache: 6baee020c5644416c034f5afb1607f6219e7f753
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  Mapbox-iOS-SDK: 1aaa5d62adfb17558dad4eeb2b05823ae8d42baf
+  Mapbox-iOS-SDK@sputnik: f320ab252a5080f2105c14efe1dd405e45e5bf45
   SMCalloutView: f758edd824b18bf4f42de00df1e299861a2d1950
-  sputnik-maps-ios-sdk: 34fa6105f29ebee4239744c79f5377da1ef6ce83
+  sputnik-maps-ios-sdk: b52ae20b80d32986e380eefc78f92a0c5a7c17f8
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.39.0

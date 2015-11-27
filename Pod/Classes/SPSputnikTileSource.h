@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RMAbstractWebMapSource.h>
+#import <Mapbox-iOS-SDK@sputnik/RMAbstractWebMapSource.h>
 
 #define kSputnikDefaultMinTileZoom 3
 #define kSputnikDefaultMaxTileZoom 18
