@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "sputnik-maps-ios-sdk"
-  s.version          = "0.2.2"
+  s.version          = "0.2.3"
   s.summary          = "Maps SDK for iOS with tiles from Sputnik.ru"
   s.description      = "Maps SDK for iOS with tiles from Sputnik.ru which uses forked mapbox-ios-sdk and provides custom tile source and map view."
   s.homepage         = "https://github.com/sputnik-ru/sputnik-maps-ios-sdk"
@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   
-  s.dependency 'Mapbox-iOS-SDK@sputnik', '= 1.6.3-sputnik'
+  s.dependency 'Mapbox-iOS-SDK@sputnik', '= 1.6.4-sputnik'
 end
